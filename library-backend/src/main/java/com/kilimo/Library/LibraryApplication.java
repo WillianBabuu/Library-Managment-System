@@ -25,7 +25,11 @@ public class LibraryApplication {
 				1L,
 				"Song of Ice and Fire",
 				"George RR Matrin",
-				2011
+				"Science Fiction",
+				"A fantasy world story of westeros",
+				2011,
+				true,
+				true
 			)
 		);
     } 
