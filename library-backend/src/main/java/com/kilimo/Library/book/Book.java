@@ -1,5 +1,7 @@
 package com.kilimo.Library.book;
 
+import org.springframework.stereotype.Service;
+@Service
 public class Book {
     private Long id;
     private String name;
