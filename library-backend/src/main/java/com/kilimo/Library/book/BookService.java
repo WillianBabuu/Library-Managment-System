@@ -1,8 +1,6 @@
 package com.kilimo.Library.book;
 import java.util.List;
 
-import com.kilimo.Library.book.Book;
-
 public class BookService {
     
     public List<Book> getBooks(){
