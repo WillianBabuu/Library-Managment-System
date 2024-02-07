@@ -1,7 +1,6 @@
 package com.kilimo.Library.book;
 import java.util.List;
 
-import com.kilimo.Library.book.Book;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,7 +16,7 @@ public class BookService {
 				"A fantasy world story of westeros",
 				2011,
 				true,
-				true
+				true, null, null
 			)
 		);
     } 

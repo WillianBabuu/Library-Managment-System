@@ -29,7 +29,7 @@ public class LibraryApplication {
 				"A fantasy world story of westeros",
 				2011,
 				true,
-				true
+				true, null, null
 			)
 		);
     } 

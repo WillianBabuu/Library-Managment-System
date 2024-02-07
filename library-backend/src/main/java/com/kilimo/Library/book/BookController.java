@@ -7,17 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.kilimo.Library.book.BookService;
-
 @RestController
 @RequestMapping(path = "api/v1/book")
 public class BookController {
 
-    private final BookService bookService;
-
     // @AutoWired 
     public BookController(BookService bookService){
-        this.bookService = new BookService();
+        new BookService();
     }
     
     @GetMapping
